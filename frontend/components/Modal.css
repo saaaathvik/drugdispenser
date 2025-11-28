@@ -1,0 +1,29 @@
+.Modal_Container{
+	
+	background-color: white;
+	box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+	
+	
+	 
+}
+
+.modalplace{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+}
+
+.fileplace{
+	display: flex;
+	
+}
+
+.Filebutton{
+	padding: 20%;
+	display: flex;
+	flex-direction: column;
+}
+.uploadbutton{
+	width: fit-content;
+}

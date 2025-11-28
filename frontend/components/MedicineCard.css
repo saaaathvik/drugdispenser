@@ -1,0 +1,61 @@
+.MedicineContainer{
+	background-color: rgba(255, 255, 255, 1);
+	margin:2%;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	border-radius: 3px;
+
+}
+.Med_Name{
+	font-weight: 500;
+	font-size: xx-large;
+	padding: 0.5%;
+}
+.buttonName{
+	display: flex;
+	justify-content: space-between;
+	padding: 0.5%;
+	align-items: center;
+}
+.CartButton{
+	height:max-content;
+	background-color: white;
+	font-size: medium;
+	font-weight: 600;
+	border-radius: 25px;
+	cursor: pointer;
+}
+
+
+.Comp_name{
+	padding-left: 1%;
+	font-size: x-large;
+	font-weight: 250;
+
+}
+
+.Med_quant{
+	font-size: large;
+	font-weight: 500;
+	padding: 1%;
+}
+
+.Med_cost{
+	padding-left: 1%;
+	padding-bottom: 0.5%;
+	font-size: xx-large;
+	font-weight: 600;
+}
+
+.costquant{
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.quantity{
+	font-size: large;
+	font-weight: 500;
+	padding:2%
+}
